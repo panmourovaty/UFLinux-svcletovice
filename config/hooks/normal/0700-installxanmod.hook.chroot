@@ -1,0 +1,2 @@
+apt autoremove -y linux-image*
+apt install linux-xanmod-lts -y

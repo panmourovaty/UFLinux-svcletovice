@@ -1,0 +1,1 @@
+echo "QT_STYLE_OVERRIDE=adwaita" >> /etc/environment

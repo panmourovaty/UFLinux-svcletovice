@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+        --bootloaders syslinux \
+        --distribution bullseye \
+	--archive-areas "main contrib non-free" \
+	--updates true \
+        --security true \
+	--backports true \
+	--debian-installer none \
+        --iso-volume UFlinux \
+	--memtest memtest86+ \
+	--binary-images iso-hybrid \
+	--iso-application "UFlinux Live" \
+	--iso-preparer "UFlinux" \
+	--iso-publisher "UFlinux" \
+	--linux-flavours "xanmod1" \
+	--linux-packages "linux-image-5.10.88" \
+	--bootappend-live "boot=live components locales=en_US.UTF-8 apparmor=1 security=apparmor psi=1 quiet splash fbcon=nodefer vt.global_cursor_default=0 hostname=uflinux-live username=live-user" \

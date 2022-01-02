@@ -1,0 +1,12 @@
+qemu-guest-agent
+spice-vdagent
+firmware-atheros
+firmware-b43-installer
+firmware-bnx2
+firmware-brcm80211
+firmware-intel-sound
+firmware-ipw2x00
+firmware-iwlwifi
+firmware-realtek
+firmware-linux-free
+firmware-linux-nonfree

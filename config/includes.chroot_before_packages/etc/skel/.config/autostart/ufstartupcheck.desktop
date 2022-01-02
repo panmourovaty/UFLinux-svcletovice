@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/usr/share/ufhelper/uflinux-helper-startupcheck
+Icon=/usr/share/ufhelper/ufhelperlogo.svg
+Name=uflinuxstartupchecker
+StartupNotify=false
+Terminal=false
+Type=Application
