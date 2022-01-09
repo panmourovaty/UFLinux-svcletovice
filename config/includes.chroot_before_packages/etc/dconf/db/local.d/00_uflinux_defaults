@@ -90,3 +90,5 @@ enable-large-icons=true
 remove-menu-arrow=true
 [org/gnome/shell/extensions/arcmenu]
 pinned-app-list=['Install System', '', 'calamares.desktop', 'Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop']
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-type='nothing'
