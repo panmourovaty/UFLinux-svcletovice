@@ -10,3 +10,6 @@ firmware-iwlwifi
 firmware-realtek
 firmware-linux-free
 firmware-linux-nonfree
+printer-driver-all
+cups
+printer-driver-cups-pdf
