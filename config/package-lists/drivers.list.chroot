@@ -13,3 +13,8 @@ firmware-linux-nonfree
 printer-driver-all
 cups
 printer-driver-cups-pdf
+sane
+sane-utils
+libsane-hpaio
+smartmontools
+jstest-gtk
