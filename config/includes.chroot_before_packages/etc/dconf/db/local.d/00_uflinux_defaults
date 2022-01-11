@@ -92,3 +92,5 @@ remove-menu-arrow=true
 pinned-app-list=['Install System', '', 'calamares.desktop', 'Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop']
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-type='nothing'
+[org/gnome/mutter]
+experimental-features=['scale-monitor-framebuffer']
