@@ -23,6 +23,7 @@ unzip
 rar
 unrar
 zstd
+yt-dlp
 celluloid
 libavif-gdk-pixbuf
 heif-gdk-pixbuf  
