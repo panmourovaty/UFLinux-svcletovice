@@ -4,7 +4,6 @@ papirus-icon-theme
 task-gnome-desktop
 neovim
 gnome-shell-extension-appindicator
-ttf-ubuntu-font-family
 flatpak
 gnome-software-plugin-flatpak
 nautilus-font-manager
@@ -45,7 +44,6 @@ mesa-utils
 adwaita-qt
 gdebi
 gnome-nibbles
-fonts-opendyslexic
 network-manager-openvpn-gnome
 network-manager-pptp-gnome
 tlp
