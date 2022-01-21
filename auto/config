@@ -18,4 +18,4 @@ lb config noauto \
 	--iso-publisher "UFlinux" \
 	--linux-flavours "xanmod1" \
 	--linux-packages "linux-image-5.10.93" \
-	--bootappend-live "boot=live components locales=en_US.UTF-8 apparmor=1 security=apparmor psi=1 quiet splash fbcon=nodefer vt.global_cursor_default=0 hostname=uflinux-live username=live-user" \
+	--bootappend-live "boot=live components locales=en_US.UTF-8 apparmor=1 security=apparmor psi=1 quiet splash fbcon=nodefer vt.global_cursor_default=0 hostname=uflinux-live username=live-user zswap.enabled=1 zswap.compressor=zstd zswap.max_pool_percent=15 zswap.zpool=z3fold" \
