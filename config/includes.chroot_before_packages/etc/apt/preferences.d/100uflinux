@@ -1,0 +1,19 @@
+Package: *
+Pin: origin "repo.uflinux.eu"
+Pin-Priority: 991
+
+Package: *
+Pin: release n=bullseye-backports
+Pin-Priority: 990
+
+Package: *
+Pin: release n=bullseye-updates
+Pin-Priority: 502
+
+Package: *
+Pin: release n=bullseye-security
+Pin-Priority: 501
+
+Package: *
+Pin: release n=bullseye
+Pin-Priority: 500
