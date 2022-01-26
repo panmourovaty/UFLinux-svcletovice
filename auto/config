@@ -18,4 +18,6 @@ lb config noauto \
 	--iso-publisher "UFlinux" \
 	--linux-flavours "xanmod1" \
 	--linux-packages "linux-image-5.10.93" \
+	--chroot-squashfs-compression-level "18" \
+	--chroot-squashfs-compression-type "zstd" \
 	--bootappend-live "boot=live components locales=en_US.UTF-8 apparmor=1 security=apparmor psi=1 quiet splash fbcon=nodefer vt.global_cursor_default=0 hostname=uflinux-live username=live-user" \
