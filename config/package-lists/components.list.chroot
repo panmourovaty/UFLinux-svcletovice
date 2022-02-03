@@ -9,3 +9,4 @@ fonts-unfonts-core
 zram-tools
 gcc
 make
+grub-efi
