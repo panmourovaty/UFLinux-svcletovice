@@ -10,3 +10,4 @@ zram-tools
 gcc
 make
 grub-efi
+grub-pc
