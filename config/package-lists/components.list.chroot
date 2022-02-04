@@ -9,7 +9,5 @@ fonts-unfonts-core
 zram-tools
 gcc
 make
-grub-efi-amd64 
 cryptsetup 
 keyutils
-grub-pc
