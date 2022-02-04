@@ -1,0 +1,159 @@
+Package: grub-common
+Source: grub2
+Version: 2.04-20
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 17422
+Depends: libc6 (>= 2.28), libdevmapper1.02.1 (>= 2:1.02.36), libefiboot1 (>= 37), libefivar1 (>= 37), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.8.4-1.4), liblzma5 (>= 5.1.1alpha+20120614), gettext-base
+Recommends: os-prober (>= 1.33)
+Suggests: multiboot-doc, grub-emu, mtools, xorriso (>= 0.5.6.pl00), desktop-base (>= 4.0.6), console-setup
+Conflicts: init-select
+Breaks: apport (<< 2.1.1), friendly-recovery (<< 0.2.13), lupin-support (<< 0.55), mdadm (<< 2.6.7-2)
+Replaces: grub-coreboot (<< 2.00-4), grub-efi (<< 1.99-1), grub-efi-amd64 (<< 2.00-4), grub-efi-ia32 (<< 2.00-4), grub-efi-ia64 (<< 2.00-4), grub-ieee1275 (<< 2.00-4), grub-linuxbios (<< 1.96+20080831-1), grub-pc (<< 2.00-4), grub-yeeloong (<< 2.00-4), init-select
+Filename: ./grub-common_2.04-20_amd64.deb
+Size: 2628756
+MD5sum: 362a98bf502bedd44afb1b47ffb3f7e1
+SHA1: f39f8bb0446b27728ef1a8bbe82ea73dd2469fe9
+SHA256: e753de303238eb33ec1850d4630c3f2db4de8b7b6b83180c1fc36606699aff44
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader (common files)
+ This package contains common files shared by the distinct flavours of GRUB.
+ It is shared between GRUB Legacy and GRUB 2, although a number of files
+ specific to GRUB 2 are here as long as they do not break GRUB Legacy.
+ .
+ grub-mkrescue needs the suggested packages mtools (for UEFI targets) and
+ xorriso.
+
+Package: grub-efi
+Source: grub2
+Version: 2.04-20
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 16
+Depends: grub-common (= 2.04-20), grub-efi-amd64 (= 2.04-20)
+Filename: ./grub-efi_2.04-20_amd64.deb
+Size: 2536
+MD5sum: 22ecd8bbd8b6f2f7cd64184efa873667
+SHA1: 701f6383e6d9e8bc7dfac970bc14b9706e9658a3
+SHA256: 26ad30870ba428813d911fb062c46857c644d9f0a894eae75e6972b53c0f88c2
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (dummy package)
+ This is a dummy package that depends on the grub-efi-$ARCH package most likely
+ to be appropriate for each architecture.
+
+Package: grub-efi-amd64-bin
+Source: grub2
+Version: 2.04-20
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 8624
+Depends: grub-common (= 2.04-20)
+Recommends: grub-efi-amd64-signed, efibootmgr
+Replaces: grub-common (<= 1.97~beta2-1), grub-efi-amd64 (<< 1.99-1), grub2 (<< 2.04-20)
+Filename: ./grub-efi-amd64-bin_2.04-20_amd64.deb
+Size: 699112
+MD5sum: cdf1bee871f7c7ddf9c59e6bdcaf7702
+SHA1: 5ad23dbd211e89fbfb4cd38abd5731ab16d5a8f4
+SHA256: e6331448b25296171cd859888aad45dcbd57089377d0cf8ab30dbb67c3eb1bdd
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+ .
+ This package contains GRUB modules that have been built for use with the
+ EFI-AMD64 architecture, as used by Intel Macs (unless a BIOS interface has
+ been activated).  It can be installed in parallel with other flavours, but
+ will not automatically install GRUB as the active boot loader nor
+ automatically update grub.cfg on upgrade unless grub-efi-amd64 is also
+ installed.
+Efi-Vendor: debian
+
+Package: grub-pc
+Source: grub2
+Version: 2.04-20
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 533
+Depends: debconf (>= 0.5) | debconf-2.0, grub-common (= 2.04-20), grub2-common (= 2.04-20), grub-pc-bin (= 2.04-20), ucf
+Conflicts: grub (<< 0.97-54), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub-xen
+Replaces: grub, grub-common (<= 1.97~beta2-1), grub-coreboot, grub-efi-amd64, grub-efi-ia32, grub-ieee1275, grub-legacy, grub2 (<< 2.04-20)
+Filename: ./grub-pc_2.04-20_amd64.deb
+Size: 131056
+MD5sum: 8f743d319399169daef47fa79fb04750
+SHA1: a95a895f59ecbf475440f9a118852bde90f0ddc1
+SHA256: 371b4d5e9d50549eafbbfd17ab878469e7b36f772b57f844e0e88a3428d0b7b6
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS version)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This is a dependency package for a version of GRUB that has been built for
+ use with the traditional PC/BIOS architecture.  Installing this package
+ indicates that this version of GRUB should be the active boot loader.
+
+Package: grub-pc-bin
+Source: grub2
+Version: 2.04-20
+Architecture: amd64
+Maintainer: GRUB Maintainers <pkg-grub-devel@alioth-lists.debian.net>
+Installed-Size: 3060
+Depends: libc6 (>= 2.28), libdevmapper1.02.1 (>= 2:1.02.36), grub-common (= 2.04-20)
+Suggests: desktop-base (>= 4.0.6)
+Replaces: grub-common (<= 1.97~beta2-1), grub-pc (<< 1.99-1), grub2 (<< 2.04-20)
+Filename: ./grub-pc-bin_2.04-20_amd64.deb
+Size: 970824
+MD5sum: f9aa6f79f3cb86759adc67d7044f975c
+SHA1: bda9542db0ca80c2a7f59003de588714731e6b29
+SHA256: 2bafee7ef0229b6eb494d8c88987e403d5637727f2ba9e47c37c0bbe8d68e9de
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/grub/
+Description: GRand Unified Bootloader, version 2 (PC/BIOS modules)
+ GRUB is a portable, powerful bootloader.  This version of GRUB is based on a
+ cleaner design than its predecessors, and provides the following new features:
+ .
+  - Scripting in grub.cfg using BASH-like syntax.
+  - Support for modern partition maps such as GPT.
+  - Modular generation of grub.cfg via update-grub.  Packages providing GRUB
+    add-ons can plug in their own script rules and trigger updates by invoking
+    update-grub.
+  - VESA-based graphical mode with background image support and complete 24-bit
+    color set.
+  - Support for extended charsets.  Users can write UTF-8 text to their menu
+    entries.
+ .
+ This package contains GRUB modules that have been built for use with the
+ traditional PC/BIOS architecture.  It can be installed in parallel with
+ other flavours, but will not automatically install GRUB as the active boot
+ loader nor automatically update grub.cfg on upgrade unless grub-pc is also
+ installed.
+
