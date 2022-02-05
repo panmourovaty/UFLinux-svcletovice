@@ -13,4 +13,5 @@ deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 #deb-src http://ftp.debian.org/debian/ bullseye-backports main contrib non-free
 " > /etc/apt/sources.list
 rm -f /etc/apt/sources.list.d/uflinuxofflinepackages.list
+rm -f /etc/cron.d/uflinuxofflinepackages
 rm -rf /var/uflinuxofflinepackages
