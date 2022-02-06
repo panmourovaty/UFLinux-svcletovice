@@ -11,3 +11,4 @@ gcc
 make
 cryptsetup 
 keyutils
+nfs-common
