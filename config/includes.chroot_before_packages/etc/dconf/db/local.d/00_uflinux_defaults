@@ -9,7 +9,7 @@ button-layout='appmenu:minimize,maximize,close'
 [org/gnome/desktop/background]
 picture-options='zoom'
 [org/gnome/desktop/background]
-picture-uri='file:///var/svcletovicebranding/wallpaper.png'
+picture-uri='file:///usr/share/backgrounds/gnome/Dark_Ivy.jpg'
 [org/gnome/desktop/background]
 primary-color='#ffffff'
 [org/gnome/desktop/background]
@@ -27,7 +27,7 @@ show-battery-percentage=true
 [org/gnome/desktop/peripherals/mouse]
 accel-profile='flat'
 [org/gnome/shell]
-favorite-apps=['calamares.desktop', 'org.chromium.Chromium.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.onlyoffice.desktopeditors']
+favorite-apps=['calamares.desktop', 'org.chromium.Chromium.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop']
 [org/gnome/nautilus/preferences]
 show-create-link=true
 [org/gnome/nautilus/preferences]
@@ -61,15 +61,11 @@ show-search-result-details=true
 [org/gnome/shell/extensions/dash-to-panel]
 panel-element-positions='{"0":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
 [org/gnome/shell/extensions/arcmenu]
-custom-menu-button-icon='/var/svcletovicebranding/svclogomenu.svg'
+menu-button-icon='Distro_Icon'
 [org/gnome/shell/extensions/arcmenu]
-override-menu-button-active-color=false
+distro-icon=0
 [org/gnome/shell/extensions/arcmenu]
-menu-button-icon='Custom_Icon'
-[org/gnome/shell/extensions/arcmenu]
-custom-menu-button-icon-size=40.0
-[org/gnome/shell/extensions/arcmenu]
-menu-button-color='rgb(214,214,214)'
+custom-menu-button-icon-size=42.0
 [org/gnome/shell/extensions/arcmenu]
 override-menu-button-color=true
 [org/gnome/shell/extensions/arcmenu]
