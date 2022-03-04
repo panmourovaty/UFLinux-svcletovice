@@ -10,7 +10,7 @@ lb config noauto \
         --security true \
 	--backports true \
 	--debian-installer none \
-        --iso-volume UFlinux \
+        --iso-volume UFlinux-svcletovice \
 	--memtest memtest86+ \
 	--binary-images iso-hybrid \
 	--iso-application "UFlinux Live" \
