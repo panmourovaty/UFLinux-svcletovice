@@ -27,7 +27,7 @@ show-battery-percentage=true
 [org/gnome/desktop/peripherals/mouse]
 accel-profile='flat'
 [org/gnome/shell]
-favorite-apps=['calamares.desktop', 'org.chromium.Chromium.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.onlyoffice.desktopeditors']
+favorite-apps=['calamares.desktop', 'org.chromium.Chromium.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop', 'org.onlyoffice.desktopeditors.desktop']
 [org/gnome/nautilus/preferences]
 show-create-link=true
 [org/gnome/nautilus/preferences]
