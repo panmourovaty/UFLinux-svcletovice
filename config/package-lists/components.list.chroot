@@ -6,6 +6,7 @@ fonts-arphic-uming
 fonts-ipafont-mincho
 fonts-ipafont-gothic
 fonts-unfonts-core
+fonts-indic
 gcc
 make
 cryptsetup 
