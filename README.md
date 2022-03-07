@@ -12,10 +12,10 @@ if you want to build ISO from this you need to install debian live build
 apt-get install live-build
 ```
 
-and then execute this command in downloaded directory
+and then execute this command in directory main (this repo)
 
 ```bash
-sudo lb config && sudo lb build
+chmod +x auto/* && sudo lb config && sudo lb build
 ```
 This will build ISO which will propably be slightly different than from official site because it will contain latest updates. If you want to make image again (for example with some changes) you must run
 
