@@ -1,5 +1,6 @@
 qemu-guest-agent
 spice-vdagent
+xserver-xspice
 firmware-atheros
 firmware-b43-installer
 firmware-bnx2
