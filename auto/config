@@ -9,7 +9,8 @@ lb config noauto \
 	--updates true \
         --security true \
 	--backports true \
-	--debian-installer none \
+	--debian-installer live \
+	--debian-installer-gui false \
         --iso-volume UFlinux \
 	--memtest memtest86+ \
 	--binary-images iso-hybrid \
