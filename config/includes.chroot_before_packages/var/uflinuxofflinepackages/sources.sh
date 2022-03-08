@@ -1,8 +1,9 @@
-#!/bin/bash
+#!/bin/zsh
 if [[ $(hostname) -eq "uflinux-live" ]]
 then
 	echo "Live Mode detected, script wont be executed"
 else
+echo "Live Mode was not detected, assuming this is first boot"
 echo "
 deb http://deb.debian.org/debian/ bullseye main contrib non-free
 #deb-src http://deb.debian.org/debian/ bullseye main contrib non-free
