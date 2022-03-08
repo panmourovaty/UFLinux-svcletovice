@@ -1,5 +1,5 @@
 #!/bin/zsh
-if [[ $(hostname) -eq "uflinux-live" ]]
+if [ $(hostname) -eq "uflinux-live" ]
 then
 	echo "Live Mode detected, script wont be executed"
 else
