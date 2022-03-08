@@ -1,12 +1,30 @@
-label live-@FLAVOUR@
-	menu label ^Live (@FLAVOUR@)
+label live-session
+	menu label ^Live Session (recommended for beginners)
 	menu default
 	linux @LINUX@
 	initrd @INITRD@
 	append @APPEND_LIVE@
 
-label live-@FLAVOUR@-failsafe
-	menu label Live (@FLAVOUR@ failsafe)
-	linux @LINUX@
-	initrd @INITRD@
-	append @APPEND_LIVE_FAILSAFE@
+menu begin liveoptions
+	menu label ^More live session options
+	menu title More live session options
+	include stdmenu.cfg
+	label mainmenu
+		menu label ^Back..
+		menu exit
+
+	label live-session-safe-g
+		menu label ^Safe Graphics
+		menu default
+		linux @LINUX@
+		initrd @INITRD@
+		append nomodeset i915.modeset=0 nouveau.modeset=0 @APPEND_LIVE@
+	label live-session-debug
+		menu label ^Print Debug messages
+		menu default
+		linux @LINUX@
+		initrd @INITRD@
+		append debug @APPEND_LIVE@
+	
+
+menu end
