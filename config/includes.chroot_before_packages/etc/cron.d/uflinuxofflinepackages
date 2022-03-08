@@ -1,1 +1,1 @@
-@reboot root /bin/sh /var/uflinuxofflinepackages/sources.sh
+@reboot root /var/uflinuxofflinepackages/sources.sh
