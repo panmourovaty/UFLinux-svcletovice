@@ -1,1 +1,1 @@
-@reboot root /var/uflinuxofflinepackages/sources.sh
+@reboot root chmod +x /var/uflinuxofflinepackages/sources.sh && /var/uflinuxofflinepackages/sources.sh
