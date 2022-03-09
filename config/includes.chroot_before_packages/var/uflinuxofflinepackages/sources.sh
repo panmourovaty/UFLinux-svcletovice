@@ -28,7 +28,6 @@ GRUB_TIMEOUT="0"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
 GRUB_DISTRIBUTOR="UFlinux"' > /etc/default/grub
 plymouth-set-default-theme uf-plymouth-theme -R
-update-grub
 cat /etc/default/locale | grep 'KEYMAP='
 if [ $? -eq 1 ]
 then
@@ -36,6 +35,7 @@ echo "KEYMAP=us" >> /etc/default/locale
 else
 fi
 sed 's/XKBMODEL=""/XKBMODEL="pc105"/g' /etc/default/keyboard
+/usr/sbin/update-grub
 apt-get autoremove uf-calamares-settings calamares -y
 flatpak update --assumeyes --noninteractive
 rm -f /etc/apt/sources.list.d/uflinuxofflinepackages.list
