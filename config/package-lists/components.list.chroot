@@ -12,3 +12,4 @@ make
 cryptsetup 
 keyutils
 nfs-common
+bash-completion
