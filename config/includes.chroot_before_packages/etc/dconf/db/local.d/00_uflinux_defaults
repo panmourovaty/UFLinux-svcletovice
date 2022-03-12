@@ -40,8 +40,10 @@ use-tree-view=true
 tap-to-click=true
 [org/gnome/shell/extensions/dash-to-panel]
 scroll-panel-action='NOTHING'
-[org/gnome/shell/extensions/dash-to-panel] 
+[org/gnome/shell/extensions/dash-to-panel]
 scroll-icon-action='NOTHING'
+[org/gnome/shell/extensions/dash-to-panel]
+multi-monitors=false
 [org/gnome/desktop/interface]
 font-name='Ubuntu 11'
 [org/gnome/desktop/interface]
