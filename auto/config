@@ -3,15 +3,15 @@
 set -e
 
 lb config noauto \
-        --bootloaders syslinux \
-        --distribution bullseye \
+  --bootloaders syslinux \
+  --distribution bullseye \
 	--archive-areas "main contrib non-free" \
 	--updates true \
-        --security true \
+  --security true \
 	--backports true \
 	--debian-installer live \
 	--debian-installer-gui false \
-        --iso-volume UFlinux \
+  --iso-volume UFlinux-svcletovice \
 	--memtest memtest86+ \
 	--binary-images iso-hybrid \
 	--iso-application "UFlinux Live" \
