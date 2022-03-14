@@ -13,3 +13,8 @@ cryptsetup
 keyutils
 nfs-common
 bash-completion
+xapp-thumbnailers-common
+xapp-appimage-thumbnailer
+xapp-epub-thumbnailer
+xapp-mp3-thumbnailer
+xapp-raw-thumbnailer
