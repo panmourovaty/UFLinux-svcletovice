@@ -100,3 +100,5 @@ sleep-inactive-ac-type='nothing'
 experimental-features=['scale-monitor-framebuffer']
 [io/github/celluloid-player]
 mpv-options='profile=gpu-hq hwdec=auto-safe demuxer-thread=yes demuxer-readahead-secs=180'
+[/org/gnome/settings-daemon/plugins/xsettings/]
+antialiasing='rgba'
