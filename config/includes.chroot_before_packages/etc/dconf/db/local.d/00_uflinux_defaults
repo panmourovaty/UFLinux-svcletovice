@@ -91,7 +91,7 @@ enable-large-icons=true
 [org/gnome/shell/extensions/arcmenu]
 remove-menu-arrow=true
 [org/gnome/shell/extensions/arcmenu]
-pinned-app-list=['Install System', '', 'calamares.desktop', 'Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop']
+pinned-app-list=['Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'LibreOffice', '', 'org.libreoffice.LibreOffice.desktop', 'Kalkulačka', '', 'org.gnome.Calculator.desktop', 'Pošta a kalendář Evolution', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Láhve', '', 'com.usebottles.bottles.desktop']
 [org/gnome/shell/extensions/arcmenu]
 menu-layout='Windows'
 [org/gnome/settings-daemon/plugins/power]
