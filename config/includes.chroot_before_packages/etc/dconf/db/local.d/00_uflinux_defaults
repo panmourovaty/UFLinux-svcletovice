@@ -9,7 +9,7 @@ button-layout='appmenu:minimize,maximize,close'
 [org/gnome/desktop/background]
 picture-options='zoom'
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/backgrounds/gnome/Dark_Ivy.jpg'
+picture-uri='file:///var/svcletovicebranding/wallpaper.png'
 [org/gnome/desktop/background]
 primary-color='#ffffff'
 [org/gnome/desktop/background]
@@ -63,11 +63,15 @@ show-search-result-details=true
 [org/gnome/shell/extensions/dash-to-panel]
 panel-element-positions='{"0":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
 [org/gnome/shell/extensions/arcmenu]
-menu-button-icon='Distro_Icon'
+custom-menu-button-icon='/var/svcletovicebranding/svclogomenu.svg'
 [org/gnome/shell/extensions/arcmenu]
-distro-icon=0
+override-menu-button-active-color=false
 [org/gnome/shell/extensions/arcmenu]
-custom-menu-button-icon-size=42.0
+menu-button-icon='Custom_Icon'
+[org/gnome/shell/extensions/arcmenu]
+custom-menu-button-icon-size=40.0
+[org/gnome/shell/extensions/arcmenu]
+menu-button-color='rgb(214,214,214)'
 [org/gnome/shell/extensions/arcmenu]
 override-menu-button-color=true
 [org/gnome/shell/extensions/arcmenu]
@@ -91,7 +95,7 @@ enable-large-icons=true
 [org/gnome/shell/extensions/arcmenu]
 remove-menu-arrow=true
 [org/gnome/shell/extensions/arcmenu]
-pinned-app-list=['Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'LibreOffice', '', 'org.libreoffice.LibreOffice.desktop', 'Kalkulačka', '', 'org.gnome.Calculator.desktop', 'Pošta a kalendář Evolution', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Láhve', '', 'com.usebottles.bottles.desktop']
+pinned-app-list=['Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'Office', '', 'org.onlyoffice.desktopeditors.desktop', 'Kalkulačka', '', 'org.gnome.Calculator.desktop', 'Pošta a kalendář Evolution', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Láhve', '', 'com.usebottles.bottles.desktop']
 [org/gnome/shell/extensions/arcmenu]
 menu-layout='Windows'
 [org/gnome/settings-daemon/plugins/power]
