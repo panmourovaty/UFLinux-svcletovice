@@ -11,7 +11,7 @@ lb config noauto \
 	--backports true \
 	--debian-installer live \
 	--debian-installer-gui false \
-        --iso-volume UFlinux \
+        --iso-volume UFlinux-svcletovice \
 	--memtest memtest86+ \
 	--binary-images iso-hybrid \
 	--iso-application "UFlinux Live" \
