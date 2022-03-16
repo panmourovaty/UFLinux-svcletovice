@@ -95,7 +95,7 @@ enable-large-icons=true
 [org/gnome/shell/extensions/arcmenu]
 remove-menu-arrow=true
 [org/gnome/shell/extensions/arcmenu]
-pinned-app-list=['Chromium', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'Office', '', 'org.onlyoffice.desktopeditors.desktop', 'Kalkulačka', '', 'org.gnome.Calculator.desktop', 'Pošta a kalendář Evolution', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Láhve', '', 'com.usebottles.bottles.desktop']
+pinned-app-list=['Web', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'LibreOffice', '', 'org.libreoffice.LibreOffice.desktop', 'Calculator', '', 'org.gnome.Calculator.desktop', 'Email', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Run Windows software', '', 'com.usebottles.bottles.desktop']
 [org/gnome/shell/extensions/arcmenu]
 menu-layout='Windows'
 [org/gnome/settings-daemon/plugins/power]
@@ -104,5 +104,5 @@ sleep-inactive-ac-type='nothing'
 experimental-features=['scale-monitor-framebuffer']
 [io/github/celluloid-player]
 mpv-options='profile=gpu-hq hwdec=auto-safe demuxer-thread=yes demuxer-readahead-secs=180'
-[/org/gnome/settings-daemon/plugins/xsettings/]
+[org/gnome/settings-daemon/plugins/xsettings]
 antialiasing='rgba'
