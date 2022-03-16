@@ -95,7 +95,7 @@ enable-large-icons=true
 [org/gnome/shell/extensions/arcmenu]
 remove-menu-arrow=true
 [org/gnome/shell/extensions/arcmenu]
-pinned-app-list=['Web', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'LibreOffice', '', 'org.libreoffice.LibreOffice.desktop', 'Calculator', '', 'org.gnome.Calculator.desktop', 'Email', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Run Windows software', '', 'com.usebottles.bottles.desktop']
+pinned-app-list=['Web', '', 'org.chromium.Chromium.desktop', 'Files', '', 'org.gnome.Nautilus.desktop', 'Software', '', 'org.gnome.Software.desktop', 'Office', '', 'org.onlyoffice.desktopeditors.desktop', 'Calculator', '', 'org.gnome.Calculator.desktop', 'Email', '', 'org.gnome.Evolution.desktop', 'UFlinux Helper', '', 'ufhelper.desktop', 'Nastavení', '', 'gnome-control-center.desktop', 'Run Windows software', '', 'com.usebottles.bottles.desktop']
 [org/gnome/shell/extensions/arcmenu]
 menu-layout='Windows'
 [org/gnome/settings-daemon/plugins/power]
